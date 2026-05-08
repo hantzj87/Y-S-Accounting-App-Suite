@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Apps</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
  
-body {
+    body {
       font-family: 'Georgia', serif;
       background: #fafaf8;
       color: #1a1a1a;
@@ -33,6 +34,7 @@ body {
       letter-spacing: -0.5px;
       color: #1a1a1a;
       margin-bottom: 6px;
+      text-align: center;
     }
  
     .subtitle {
@@ -66,12 +68,10 @@ body {
       border-top: 1px solid #e8e6e0;
     }
  
-    .dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
+    .item i {
+      font-size: 18px;
       flex-shrink: 0;
-      margin-top: 4px;
+      margin-top: 1px;
     }
  
     .name {
@@ -118,50 +118,48 @@ body {
     </header>
  
     <div class="list">
-
+ 
       <a class="item" href="https://applied-payments-production.up.railway.app/">
-        <div class="dot" style="background: #378ADD;"></div>
+        <i class="ti ti-credit-card" style="color: #185FA5;" aria-hidden="true"></i>
         <span class="name">Applied Payments</span>
         <span class="desc">Transform an Applied Payments report from TicketVault into the entries needed for QBO and tabs needed for sales ledgers</span>
         <span class="arrow">→</span>
       </a>
-      
+ 
       <a class="item" href="https://ar-aging-builder-production.up.railway.app/">
-        <div class="dot" style="background: #378ADD;"></div>
+        <i class="ti ti-clock" style="color: #0F6E56;" aria-hidden="true"></i>
         <span class="name">AR Aging Report</span>
         <span class="desc">Transform an unpaid invoices list from TicketVault into an AR Aging report</span>
         <span class="arrow">→</span>
       </a>
-
+ 
       <a class="item" href="https://bank-feed-uploads-production.up.railway.app/">
-        <div class="dot" style="background: #378ADD;"></div>
+        <i class="ti ti-building-bank" style="color: #534AB7;" aria-hidden="true"></i>
         <span class="name">Bank Feed Uploads</span>
         <span class="desc">Transform any card platform's transaction download into a ready-to-upload CSV file for QBO bank feed</span>
         <span class="arrow">→</span>
       </a>
-
+ 
       <a class="item" href="https://import-payments-production.up.railway.app/">
-        <div class="dot" style="background: #378ADD;"></div>
+        <i class="ti ti-file-import" style="color: #854F0B;" aria-hidden="true"></i>
         <span class="name">Import Payments</span>
         <span class="desc">Transform any network's remittance file into a ready-to-upload CSV file into TicketVault</span>
         <span class="arrow">→</span>
       </a>
-
+ 
       <a class="item" href="https://installment-payment-projections-production.up.railway.app/">
-        <div class="dot" style="background: #378ADD;"></div>
+        <i class="ti ti-calendar-stats" style="color: #3B6D11;" aria-hidden="true"></i>
         <span class="name">Installment Projections</span>
         <span class="desc">Project upcoming STH charges by team and credit card / bank account based on the prior month's ticket credit QBO general ledger</span>
         <span class="arrow">→</span>
       </a>
-
+ 
       <a class="item" href="https://stubhub-channel-share-production.up.railway.app/">
-        <div class="dot" style="background: #378ADD;"></div>
+        <i class="ti ti-share" style="color: #993556;" aria-hidden="true"></i>
         <span class="name">StubHub Channel Share Report</span>
         <span class="desc">Transform an invoice details report from TicketVault into the StubHub Channel Share report</span>
         <span class="arrow">→</span>
       </a>
-      
-
  
     </div>
  
